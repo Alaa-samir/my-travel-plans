@@ -8,7 +8,9 @@ on:
 #   push:
 #     branches: [ master ]
   pull_request:
+
     types: [ opened , ready_for_review , edited	, review_requested]
+
     
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
